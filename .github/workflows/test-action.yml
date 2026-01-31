@@ -1,0 +1,12 @@
+name: Test GitHub Action
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 23f1003037@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
